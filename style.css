@@ -1,0 +1,58 @@
+body {
+  background-color: lightblue;
+}
+
+.todo-list {
+  background-color: white;
+  width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.lists {
+  margin: 20px 0;
+  padding: 20px;
+  height: 400px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.list__checkbox {
+  margin-right: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.input {
+  border: none;
+  flex-basis: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
+
+.submit-btn {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}

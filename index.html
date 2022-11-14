@@ -15,12 +15,14 @@
   </head>
   <body>
     <!-- <section class="calendar"></section> -->
-    <section class="todo-list">
+    <form class="todo-list">
       <h1 class="title">Todo List</h1>
       <ul class="lists">
         <li class="list">
-          <input class="list__checkbox" type="checkbox" />
-          <span class="list__name">미소 산책</span>
+          <div class="list-wrapper">
+            <input class="list__checkbox" type="checkbox" />
+            <span class="list__name">미소 산책</span>
+          </div>
           <button class="list__delete">
             <i class="fa-solid fa-trash-can"></i>
           </button>
@@ -32,6 +34,6 @@
           <i class="fa-solid fa-plus"></i>
         </button>
       </div>
-    </section>
+    </form>
   </body>
 </html>

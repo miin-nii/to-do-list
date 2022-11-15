@@ -26,14 +26,32 @@ body {
   overflow-y: auto;
 }
 
+.list::-webkit-scrollbar {
+  width: 7px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  height: 50%;
+  background-color: rgb(198, 198, 198);
+  border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+  background-color: rgb(242, 242, 242);
+}
+
 .item {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
 }
 
+.item ~ .item {
+  margin-top: 10px;
+}
+
 .item__checkbox {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .item__delete {

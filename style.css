@@ -19,29 +19,29 @@ body {
   padding-bottom: 10px;
 }
 
-.lists {
+.list {
   margin: 20px 0;
   padding: 0 10px;
   height: 400px;
   overflow-y: auto;
 }
 
-.list {
+.item {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
 }
 
-.list__checkbox {
+.item__checkbox {
   margin-right: 5px;
 }
 
-.list__delete {
+.item__delete {
   color: darkgrey;
   transition: all 200ms ease-in;
 }
 
-.list__delete:hover {
+.item__delete:hover {
   color: black;
 }
 
